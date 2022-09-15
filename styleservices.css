@@ -1,0 +1,135 @@
+.banner-image{
+    background-image: url('./image/1319.png');
+    height: 300px !important;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: grey 0px 2px 8px 0px;
+    }
+.tout{
+    margin: 60px;
+}
+.telephone{
+  display: none;
+}
+.tout a{
+  margin-left: 80px;
+  margin-bottom: 60px;
+}
+
+
+.bartitre{
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 10px;
+  display: flex;
+  margin-bottom: 80px;
+
+}
+.serv1{
+    display: flex;
+}
+.serv1 p{
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 22px;
+
+}
+.serv1 img{
+  margin-top: 20px;
+  width: 400px; 
+  height:200px; 
+  margin-left: 80px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+}
+
+.serv1 .titre{
+  color:#007FFF;
+  font-size: 40px;
+}
+.type-pro{
+margin-left: 120px;
+margin-right: 120px;
+list-style:  square ;
+font-size: 18px;
+
+}
+hr{
+  color:#007FFF;
+
+}
+.vl {
+margin-top: 10px;
+border-left: 6px solid #007FFF;
+}
+.tout{
+margin-top: 80px;
+margin-bottom: 200px;
+}
+::-webkit-scrollbar {
+width: 10px;
+}
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+background: #555; 
+}
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+  }
+.titre1{
+margin-top: 80px;
+    }
+.titb{
+      margin-top: 80px;
+      margin-left:140px;
+      display: flex;
+    }
+.ll {
+margin-top: 10px;
+border-left: 6px solid #007FFF;
+  height: 100px;
+      }
+.mb-4 svg{
+        color: white;
+      }
+    @media(max-width:1000px){
+      .pc{
+        display: none;
+      }
+      .telephone{
+        display: grid;
+      }
+      .telephone a{
+        width: 250px;
+      }
+      .nom_service{
+        margin-left: 30px;
+        margin-top: 60px;
+        margin-right: 30px;      
+      }
+     
+      
+      .nom_service img{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        width: 90%;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+      }
+      .bart{
+        margin-top: 10px;
+        display: flex;
+      
+      }
+      .bart h2{
+        margin-left: 15px;
+        color: #007FFF;
+
+      }
+      
+      .bar {
+        border-left: 6px solid #007FFF;
+        height: 35px;
+        }
+    }
